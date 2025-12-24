@@ -1,19 +1,21 @@
 # sniffRF
-![PCB 3D Render](./Media/SniffRF_PCB_3D_Render.png)<br><br>
-
-## Preface
-This is a personal project and my very first STM32 PCB!!! Spent a couple of weekends working on this project. The STM32L053R8 is being used for this project as I already have the development board for this chip. A working prototype of this circuit was partially breadboarded and tested before the PCB was made. <br>
+![PCB 3D Render](./Media/SniffRF_PCB_3D_Render.png)<br>
+More images to come! TBC... <br>
 
 ## About
-SniffRF is an RSSI detector aka a signal strength detector for the 902MHz to 928MHz band based off an AD8318 chip and built around an STM32L053R8 MCU. <br>
+SniffRF is a simple RSSI detector aka a signal strength detector for the 902MHz to 928MHz band using an AD8318 logarithmic detector chip and built around an STM32L053R8 MCU. SniffRF displays the RSSI level on a mini OLED. SniffRF will also pulse a buzzer with varying frequency based on the RSSI level.<br>
+
+## Sub-Systems
+* RF: Input from SMA fed into AD8318 log detector. <br>
+* MCU: STM32L053R8 M0+ interface circuitry, program/debug MCU via SWD.
+* UI: OLED for visual feedback and buzzer for audio feedback.
+* Power: 1x 18650 cell with BQ24074 power path manager, charge via USB-C, MAX1704 fuel gauge, simple buck converter for 3.3V
 
 ## Application
-Many IoT devices utilizing FHSS are often deployed in the ISM bandwidth surrounding 915MHz. If a transceiver is to be tested or deployed at a location, the noise floor in that location should be found and then the noise margin should be calculated to verify that it is above the minimum level required by this transceiver. SniffRF could potentially be used to gauge the background noise level at any location before deploying a device on the 900MHz band. <br><br>
+* SniffRF could be used to track RF transmitters using their radio signature. <br>
+* SniffRF could also be used to gauge the noise floor at a particular location to select or deploy a receiver at said location. <br>   
 
-Another interesting use case would be to use SniFFRF to find RC models and more importantly high power rockets with telemetry transceivers operating on the 900MHz band. Infact, the driving factor behind making this SniffRF module was to find rockets. An very low gain omnidirectional antenna could be used until the user is roughly in the neighbourhood surrounding the rocket. Then switch to a more directional antenna to pinpoint the exact location of the rocket. This will come in very handy in finding rockets in a ditch or inside a shrub on the desert floor. <br>
+*Note: As of now, SniffRF only tunes into the 902-928MHz band.*
 
-## TBC...
-TBC... <br>
-
-## Conclusion
-TBC... <br>
+## Thoughts...
+This is my first STM32 PCB! I made this PCB to learn STM32 design as well as try my hand at mixed signal PCB design. Feels good to finally strike this off my bucket list. Spent a few weekends working on this project over 3 months. More advanced RF PCBs to come!

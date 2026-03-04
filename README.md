@@ -17,11 +17,12 @@
 
 
 ![PCB 3D Render](./Media/SniffRF_PCB_3D_Render.png) <br>
+![SniffRF Layout](./Media/SniffRF_Layout.png) <br>
 ![SniffRF Charging Battery](./Media/SniffRF_Charging_Bat.jpg) <br>
 ![SniffRF In Debug](./Media/SniffRF_In_Debug.jpg) <br>
 
 ## About
-SniffRF is a simple RSSI detector aka a signal strength detector for the 902MHz to 928MHz band using an AD8318 logarithmic detector chip and built around an STM32L053R8 MCU. SniffRF displays the RSSI level on a mini OLED. SniffRF will also pulse a buzzer with varying frequency based on the RSSI level.<br>
+SniffRF is a simple RSSI detector aka a signal strength detector for the 902MHz to 928MHz band using an AD8318 logarithmic detector chip and built around an STM32L053R8 MCU. SniffRF displays the RSSI level on a mini OLED. SniffRF will also pulse a buzzer with varying frequency based on the RSSI level. <br>
 
 ## Sub-Systems
 * RF: Input from SMA fed into AD8318 log detector. <br>

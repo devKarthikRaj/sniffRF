@@ -1,17 +1,16 @@
 # sniffRF
 
 ## Project Snapshot
-
-| Category | Details |
-|--------|--------|
 | MCU | STM32L053R8 (M0+) |
-| RF Detector | AD8318 Logarithmic RF Power Detector |
+| RF Detector | AD8318 Logarithmic (RF Power) Detector |
 | Frequency Range | 902-928 MHz |
 | Measurement Method | RF power -> Analog Voltage -> STM32 ADC |
 | Power System | Li-ion battery with BQ24074 power path manager (charger included) |
 | Display | OLED (SSD1306) |
-| PCB | 4-layer custom mixed signal PCB designed in KiCad | Manufactured with JLCPCB |
-| Status | Hardware bring-up completed and core functionality validated (exclusing OLED) |
+| PCB | 4-layer mixed signal PCB designed in KiCad |
+| Manufacturing | PCB fabrication and assembly done by JLCPCB |
+| Cost| S$250 |
+| Status | Hardware bring-up completed, core functionality validated (exclusing OLED) |
 
 
 ![PCB 3D Render](./Media/SniffRF_PCB_3D_Render.png) <br>

@@ -1,6 +1,8 @@
 # sniffRF
 
 ## Project Snapshot
+| Spec | Details |
+|---|---|
 | MCU | STM32L053R8 (M0+) |
 | RF Detector | AD8318 Logarithmic (RF Power) Detector |
 | Frequency Range | 902-928 MHz |

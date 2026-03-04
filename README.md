@@ -4,6 +4,7 @@
 | Spec | Details |
 |---|---|
 | MCU | STM32L053R8 (M0+) |
+| Firmware | Written in C++ via STM32CubeIDE |
 | RF Detector | AD8318 Logarithmic (RF Power) Detector |
 | Frequency Range | 902-928 MHz |
 | Measurement Method | RF power -> Analog Voltage -> STM32 ADC |

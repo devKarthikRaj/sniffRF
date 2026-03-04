@@ -13,7 +13,7 @@
 | PCB | 4-layer mixed signal PCB designed in KiCad |
 | Manufacturing | PCB fabrication and assembly done by JLCPCB |
 | Cost | S$250 |
-| Status | Hardware bring-up completed, core functionality validated (exclusing OLED) |
+| Status | Hardware bring-up completed, core functionality validated (excluding OLED) |
 
 
 ![PCB 3D Render](./Media/SniffRF_PCB_3D_Render.png) <br>

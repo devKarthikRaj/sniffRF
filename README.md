@@ -9,7 +9,7 @@
 | Display | OLED (SSD1306) |
 | PCB | 4-layer mixed signal PCB designed in KiCad |
 | Manufacturing | PCB fabrication and assembly done by JLCPCB |
-| Cost| S$250 |
+| Cost | S$250 |
 | Status | Hardware bring-up completed, core functionality validated (exclusing OLED) |
 
 

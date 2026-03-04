@@ -35,9 +35,9 @@ SniffRF is a simple RSSI detector aka a signal strength detector for the 902MHz 
 
 *Note: As of now, SniffRF only tunes into the 902-928MHz band.*
 
-## Bring Up and Validation
-* STM32 MCU able to boot up and connect via J-Link debugger to STM32CubeIDE. STM32 UART connection working as expected. <br>
-* AD8318 RSSI detection circuit is fully functional from about -60dBm to 0dBm. A known RF source (Sine wave transmitted at 915MHz from an Adalm Pluto SDR) was moved toward and away from the SniffRF PCB - this caused the RSSI readings to increase and decrease as expected. <br>
+## Bring-Up and Validation
+* **STM32 MCU able to boot up and connect via J-Link debugger to STM32CubeIDE.** STM32 UART connection working as expected. <br>
+* **AD8318 RSSI detection circuit is fully functional from about -60dBm to 0dBm. A known RF source (Sine wave transmitted at 915MHz from an Adalm Pluto SDR) was moved toward and away from the SniffRF PCB - this caused the RSSI readings to increase and decrease as expected.** <br>
 * Li-Ion battery power path manager is able to charge the 18650 battery when a USB-C charge cable is plugged in. MAX1704 fuel gauge is able to read Li-Ion battery voltage + capacity and send this data over to the STM32 for display over UART. <br>
 * Buzzer interfaced to STM32 is functional. <br>
 * Unable to verify OLED functionality due to lack of assembled SniffRF boards, TBC... <br>

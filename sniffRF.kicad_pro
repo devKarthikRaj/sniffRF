@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 0.5,
+          "height": 0.8,
+          "width": 0.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,6 +60,134 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|141106404|30091665|e5e1910d-f64c-4c05-be69-80eb248aece4|c4f8a027-bd4a-4974-a614-b7738380556c",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|141106404|46550865|293a7f27-c08a-4138-8d4b-1d1a0a996ab5|ad930d69-7619-4a8c-934c-298485b60d54",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|141449089|29264350|e5e1910d-f64c-4c05-be69-80eb248aece4|646a7355-f719-4311-891e-0904b2aa01f6",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|141449089|30918980|e5e1910d-f64c-4c05-be69-80eb248aece4|ab32ffcc-dafb-4b33-88a7-25bd8f665c73",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|141449089|45723550|293a7f27-c08a-4138-8d4b-1d1a0a996ab5|b6631f70-9414-449d-b7c9-bb82382b27ba",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|141449089|47378180|293a7f27-c08a-4138-8d4b-1d1a0a996ab5|e96fb88c-2c7d-441e-9a5f-7c4c8c55f131",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|142276404|28921665|e5e1910d-f64c-4c05-be69-80eb248aece4|b99b95e0-c262-47dd-861f-2d9bb7489ffe",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|142276404|31261665|e5e1910d-f64c-4c05-be69-80eb248aece4|55f64531-43f3-4168-9c3b-aa1ce1d48823",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|142276404|45380865|293a7f27-c08a-4138-8d4b-1d1a0a996ab5|a65f8263-2a2a-437c-9aed-d978f4fb0a63",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|142276404|47720865|293a7f27-c08a-4138-8d4b-1d1a0a996ab5|9ed9207e-8ce6-4b08-a0b7-c1e8634c95a3",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|143103719|29264350|e5e1910d-f64c-4c05-be69-80eb248aece4|a4d5bd9e-f630-43dd-9c64-a2471a6c0d5f",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|143103719|30918980|e5e1910d-f64c-4c05-be69-80eb248aece4|eef5df58-1d75-4cfc-885e-be94d12b2e8c",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|143103719|45723550|293a7f27-c08a-4138-8d4b-1d1a0a996ab5|84c21e22-86e1-40e0-ac10-16560ca04564",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|143103719|47378180|293a7f27-c08a-4138-8d4b-1d1a0a996ab5|f85ecda2-803f-4b96-9521-66974192396b",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|143446404|30091665|e5e1910d-f64c-4c05-be69-80eb248aece4|fd1758a0-c84e-4304-bf19-9e8ce96f9ff5",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|143446404|46550865|293a7f27-c08a-4138-8d4b-1d1a0a996ab5|f3db6a09-bcae-4455-b16d-c949a20bad39",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|55203604|30591665|1e02aa00-b696-4e3c-9ae6-69c777ad7899|c3c9129e-03f0-4617-9b83-11ca7e328176",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|55203604|46050865|1ed97285-f71e-4ce8-9e86-97f21dfd5e90|783b775b-eb09-4bbb-8598-691508db060b",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|55546289|29764350|1e02aa00-b696-4e3c-9ae6-69c777ad7899|7de74303-d5da-4ff7-bdb5-c2ec196d2de2",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|55546289|31418980|1e02aa00-b696-4e3c-9ae6-69c777ad7899|2b960caf-c0b6-4e95-bded-dee787b27403",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|55546289|45223550|1ed97285-f71e-4ce8-9e86-97f21dfd5e90|9b8a60ad-ed03-4570-983c-3bfbe4eae556",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|55546289|46878180|1ed97285-f71e-4ce8-9e86-97f21dfd5e90|0363cc0a-a803-40fc-9448-739fd2fe7388",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|56373604|29421665|1e02aa00-b696-4e3c-9ae6-69c777ad7899|c54592e3-378e-4345-a528-cd496dd9dc3b",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|56373604|31761665|1e02aa00-b696-4e3c-9ae6-69c777ad7899|d00c6396-e72f-4f7d-b744-d3aafbac7450",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|56373604|44880865|1ed97285-f71e-4ce8-9e86-97f21dfd5e90|3794d73c-e49b-48a5-b8d2-c32417035b33",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|56373604|47220865|1ed97285-f71e-4ce8-9e86-97f21dfd5e90|fd90a2a2-bed0-49eb-83e3-4e2d3fbfc6b6",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|57200919|29764350|1e02aa00-b696-4e3c-9ae6-69c777ad7899|a5d3b0da-0040-4c73-9eed-bbaa7e2cb2b7",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|57200919|31418980|1e02aa00-b696-4e3c-9ae6-69c777ad7899|75973d7d-8515-4efe-8fa0-9578384432f2",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|57200919|45223550|1ed97285-f71e-4ce8-9e86-97f21dfd5e90|64c57ecb-0c8c-41b1-a801-2524e36580c1",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|57200919|46878180|1ed97285-f71e-4ce8-9e86-97f21dfd5e90|4a230b08-6f94-4720-96eb-7b8b73c18c57",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|57543604|30591665|1e02aa00-b696-4e3c-9ae6-69c777ad7899|02e58da2-f8f3-4f19-938f-d53216214e90",
+          "Reinforced mounting hole"
+        ],
+        [
+          "clearance|57543604|46050865|1ed97285-f71e-4ce8-9e86-97f21dfd5e90|cd18f63d-2750-4ef8-a253-f48d21d650e6",
+          "Reinforced mounting hole"
+        ],
+        [
           "lib_footprint_mismatch|107618892|41816896|63275ccb-4fd1-4281-9a97-e260bd84ce3c|00000000-0000-0000-0000-000000000000",
           "Edited silkscreen for better visibility on PCB"
         ],
@@ -76,60 +204,48 @@
           "Edited silkscreen for better visibility on PCB"
         ],
         [
+          "lib_footprint_mismatch|67907792|42121696|d99b6d49-21ce-4ed5-a751-93883aa60288|00000000-0000-0000-0000-000000000000",
+          "Removed silkscreen around test point to save space"
+        ],
+        [
+          "lib_footprint_mismatch|68339592|43340896|7fb81aa1-7308-4de5-9950-ae2fbfdcac24|00000000-0000-0000-0000-000000000000",
+          "Removed silkscreen around test point to save space"
+        ],
+        [
+          "lib_footprint_mismatch|68796792|44560096|7404d129-0246-42da-a2ea-df0df26e3f86|00000000-0000-0000-0000-000000000000",
+          "Removed silkscreen around test point to save space"
+        ],
+        [
+          "lib_footprint_mismatch|69406392|45703096|b4802899-10ad-4c02-9eae-0a01fc7ec9f6|00000000-0000-0000-0000-000000000000",
+          "Removed silkscreen around test point to save space"
+        ],
+        [
+          "lib_footprint_mismatch|75832592|31809296|1aa68d1a-4eac-4b1a-9c86-9fcc05eae33b|00000000-0000-0000-0000-000000000000",
+          "Removed silkscreen around test point to save space"
+        ],
+        [
+          "lib_footprint_mismatch|77229592|31809296|4fc9157d-3c9a-4f1a-8172-34858603e731|00000000-0000-0000-0000-000000000000",
+          "Removed silkscreen around test point to save space"
+        ],
+        [
+          "lib_footprint_mismatch|82464764|32015268|aad73f1c-34cd-4c52-8ebe-6e5e581a813e|00000000-0000-0000-0000-000000000000",
+          "Removed silkscreen around test point to save space"
+        ],
+        [
           "lib_footprint_mismatch|83376392|27415096|69e0962f-72ed-4624-9271-6dfa21cf1b2e|00000000-0000-0000-0000-000000000000",
           "Edited silkscreen to place on board edge without cutting silkscreen"
+        ],
+        [
+          "lib_footprint_mismatch|83452592|33003096|183c134a-48e4-4989-ad3a-8c577ec8d775|00000000-0000-0000-0000-000000000000",
+          "Removed silkscreen around test point to save space"
         ],
         [
           "lib_footprint_mismatch|87528592|46541296|e2d0d0e3-99fe-41e1-be07-b0e85eeb99e8|00000000-0000-0000-0000-000000000000",
           "Edited silkscreen for better visibility on PCB"
         ],
         [
-          "lib_footprint_mismatch|99223404|38321265|27d4d05c-d16a-4989-b1f8-ce10aee40cd2|00000000-0000-0000-0000-000000000000",
-          "Changed from top to bottom layer. This is PCB specific."
-        ],
-        [
-          "track_dangling|69096116|42926516|e077984f-97a7-4483-843c-65c874bf4232|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
-        ],
-        [
-          "track_dangling|69449670|43281204|b0d981c5-0216-4542-941a-2a825d5b8367|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
-        ],
-        [
-          "track_dangling|69802604|43630484|6d1e48fe-65fb-45e4-b342-faa263796b3e|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
-        ],
-        [
-          "track_dangling|70156776|43987512|4b488836-6442-4b96-9263-8fa164d3ebfd|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
-        ],
-        [
-          "track_dangling|70510330|44345158|e835168d-b436-4164-a958-365d19857914|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
-        ],
-        [
-          "track_dangling|70865052|44691145|4913625e-c88c-4d68-b5d4-7b15279bda8a|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
-        ],
-        [
-          "track_dangling|71217437|45044698|ae0a902c-3922-40f0-a884-1dd1ca1f1196|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
-        ],
-        [
-          "track_dangling|80658592|33485696|5aef74a2-d675-4db9-8249-eef0704db7c3|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
-        ],
-        [
-          "track_dangling|80988792|33866696|4218ae1a-779f-4403-80c9-adbd9079d33e|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
-        ],
-        [
-          "track_dangling|81344392|34222296|245cbda8-7f18-4510-952a-1506357bb8b1|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
-        ],
-        [
-          "track_dangling|81725392|34527096|ebd78e6e-4e9e-4553-8fea-25ba2cded9a0|00000000-0000-0000-0000-000000000000",
-          "Mapped out gpio stub for future use"
+          "track_dangling|69389978|43340896|59475e52-2f54-4951-b54c-fa812e204860|00000000-0000-0000-0000-000000000000",
+          "GPIO mapped out for future use"
         ]
       ],
       "meta": {
@@ -177,7 +293,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -318,7 +434,40 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1663700|850900|695226be-c133-4bff-a741-97f6ad776b9a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|457200|1181100|fc8c821a-c16b-458f-ba2f-ed636e615c07|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1930400|1003300|d009d8e5-9575-417e-b878-20da093c0736|9591bdc7-8aee-48d4-9081-b6c84bf5b33e|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad",
+        ""
+      ],
+      [
+        "multiple_net_names|1930400|1028700|aeee7302-9742-4f22-b717-98d7b1c25866|8621925c-28f6-4e9e-adba-dcdcebd9bebe|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad",
+        ""
+      ],
+      [
+        "multiple_net_names|2222500|800100|8ccf5639-c484-484b-a964-4660702164a6|1e722c75-7623-418b-93ee-cd631bbc19d1|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad",
+        ""
+      ],
+      [
+        "multiple_net_names|2235200|571500|b67a1707-ae51-4e1a-9533-005733a2db75|01a7cb02-5cea-4c75-978f-4547e65b5f6f|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad",
+        ""
+      ],
+      [
+        "multiple_net_names|2235200|876300|3f7235bb-5097-42eb-919a-a7f0e1a39784|fa4f7f68-809e-43ce-aba7-5e443c360806|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad",
+        ""
+      ],
+      [
+        "multiple_net_names|2235200|901700|3f08409b-89e6-40ac-a91e-0fa0dbdc5cee|af9d94bc-7c2d-4ac7-b0be-2bf827a11658|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad|/a36bbe2a-6e74-4786-9381-789e362d843e/ea5c8818-4124-4bc1-b412-b34a18ac80ad",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -583,7 +732,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CAD/sniffRF.step",
       "svg": "",
       "vrml": ""
     },
@@ -799,7 +948,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "Reference_Docs/Schematic/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

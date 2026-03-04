@@ -1,4 +1,19 @@
 # sniffRF
+
+## Project Snapshot
+
+| Category | Details |
+|--------|--------|
+| MCU | STM32L053R8 (M0+) |
+| RF Detector | AD8318 Logarithmic RF Power Detector |
+| Frequency Range | 902-928 MHz |
+| Measurement Method | RF power -> Analog Voltage -> STM32 ADC |
+| Power System | Li-ion battery with BQ24074 power path manager (charger included) |
+| Display | OLED (SSD1306) |
+| PCB | 4-layer custom mixed signal PCB designed in KiCad | Manufactured with JLCPCB |
+| Status | Hardware bring-up completed and core functionality validated (exclusing OLED) |
+
+
 ![PCB 3D Render](./Media/SniffRF_PCB_3D_Render.png) <br>
 ![SniffRF Charging Battery](./Media/SniffRF_Charging_Bat.jpg) <br>
 ![SniffRF In Debug](./Media/SniffRF_In_Debug.jpg) <br>
@@ -23,6 +38,7 @@ SniffRF is a simple RSSI detector aka a signal strength detector for the 902MHz 
 * AD8318 RSSI detection circuit is fully functional from about -60dBm to 0dBm. A known RF source (Sine wave transmitted at 915MHz from an Adalm Pluto SDR) was moved toward and away from the SniffRF PCB - this caused the RSSI readings to increase and decrease as expected. <br>
 * Li-Ion battery power path manager is able to charge the 18650 battery when a USB-C charge cable is plugged in. MAX1704 fuel gauge is able to read Li-Ion battery voltage + capacity and send this data over to the STM32 for display over UART. <br>
 * Buzzer interfaced to STM32 is functional. <br>
+* Unable to verify OLED functionality due to lack of assembled SniffRF boards, TBC... <br>
 
 ## Thoughts...
 This is my first STM32 PCB! I made this PCB to learn STM32 design as well as try my hand at mixed signal PCB design. Feels good to finally strike this off my bucket list. Spent a few weekends working on this project over 3 months. More advanced RF PCBs to come!
